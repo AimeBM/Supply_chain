@@ -45,10 +45,11 @@ This project was developed as part of the
 
 ```bash
 docker-compose up --build
-
+```
 ---
 
 ## 🐍 Run with python in local
 
 ```bash
 python .\run_all.py
+```
