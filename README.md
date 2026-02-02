@@ -41,15 +41,16 @@ This project was developed as part of the
 
 ---
 
-## 🐳 Run with Docker
+## 🐳 Run with Docker in docker desktop
 
 ```bash
-docker-compose up --build
+docker compose up -d --build # first time
+docker-compose up # for other time
 ```
 ---
 
 ## 🐍 Run with python in local
 
 ```bash
-python .\run_all.py
+python .\run_all.py # streamlit depends to fastapi
 ```
